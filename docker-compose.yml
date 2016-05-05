@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 version: '2'
 services:
   jasperserver-db-storage:
