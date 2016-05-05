@@ -1,4 +1,6 @@
-# Jasper Server [![Deploy to Docker Cloud](https://files.cloud.docker.com/images/deploy-to-dockercloud.svg)](https://cloud.docker.com/stack/deploy/?repo=https://github.com/monitoringartist/jasperserver-xxl) [![](https://badge.imagelayers.io/monitoringartist/jasperserver-xxl:latest.svg)](https://imagelayers.io/?images=monitoringartist/jasperserver-xxl:latest)
+# Jasper Server 
+
+Based on [monitoringartist/jasperserver-xxl](https://hub.docker.com/r/monitoringartist/jasperserver-xxl/)
 
 Dockerized [TIBCO JasperReports Server Community Edition](http://community.jaspersoft.com/download). Quick start:
 
@@ -60,14 +62,8 @@ You can use environment variables to configure JasperServer container:
 
 # Integrations
 
-* [docker-compose for dockerized jasperserver-xxl](https://github.com/monitoringartist/jasperserver-xxl/blob/master/docker-compose.yml)
+* [docker-compose for dockerized jasperserver-xxl](https://github.com/SmartmaticLabs/jasperserver-xxl/blob/master/docker-compose.yml)
 
 # Author
 
-[Devops Monitoring zExpert](http://www.jangaraj.com 'DevOps / Docker / Kubernetes / Zabbix / Zenoss / Monitoring'), 
-who loves monitoring systems, which start with letter Z. 
-Those are Zabbix and Zenoss.
-
-Professional monitoring services:
-
-[![Monitoring Artist](http://monitoringartist.com/img/github-monitoring-artist-logo.jpg)](http://www.monitoringartist.com 'DevOps / Docker / Kubernetes / Zabbix / Zenoss / Monitoring')
+Based on [monitoringartist/jasperserver-xxl](https://hub.docker.com/r/monitoringartist/jasperserver-xxl/)
