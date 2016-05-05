@@ -38,11 +38,6 @@ docker logs -f jasperserver
 JasperServer will be available on URL `http://<YOUR DOCKER HOST IP>:8080/jasperserver`.
 Default credentials `jasperadmin/jasperadmin`.
 
-Please donate to author, so he can continue to publish other awesome projects 
-for free:
-
-[![Paypal donate button](http://jangaraj.com/img/github-donate-button02.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8LB6J222WRUZ4)
-
 # Configuration
 
 You can use environment variables to configure JasperServer container:
