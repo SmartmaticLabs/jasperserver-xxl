@@ -8,10 +8,13 @@ setup_jasperserver() {
     JS_DB_PASSWORD=${JS_DB_PASSWORD:-my_password}
     JS_DB_PORT=${JS_DB_PORT:-3306}
     JS_ENABLE_SAVE_TO_HOST_FS=${JS_ENABLE_SAVE_TO_HOST_FS:-false}
+
     pushd ${JASPERSERVER_BUILD}
     cp sample_conf/${JS_DB_TYPE}_master.properties default_master.properties
     sed -i -e "s|^appServerDir.*$|appServerDir = $CATALINA_HOME|g; s|^dbHost.*$|dbHost=$JS_DB_HOST|g; s|^dbUsername.*$|dbUsername=$JS_DB_USER|g; s|^dbPassword.*$|dbPassword=$JS_DB_PASSWORD|g" default_master.properties
     
+    wait_db
+
     # DB seeding
     ./js-ant create-js-db init-js-db-ce import-minimal-ce || true
     for i in $@; do
