@@ -69,3 +69,4 @@ Based on [monitoringartist/jasperserver-xxl](https://hub.docker.com/r/monitoring
 - Added support for Oracle JDBC driver linking timezone from the host
 - Added JS_ENABLE_SAVE_TO_HOST_FS to enable saving scheduled reports to the host
 - Upgraded docker-compose.yml to version 2 and added the two other configurations
+- Now the entrypoint script waits for the database be ready before setup the server
