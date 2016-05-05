@@ -17,8 +17,8 @@ services:
       - MARIADB_PASS=my_password
   
   jasperserver:
-    build:
-      context: .
+    #build:
+      #context: .
     image: smartmatic/jasperserver-xxl:latest
     ports:
       - "8080:8080"
