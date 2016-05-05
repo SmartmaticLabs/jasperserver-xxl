@@ -62,3 +62,10 @@ You can use environment variables to configure JasperServer container:
 # Author
 
 Based on [monitoringartist/jasperserver-xxl](https://hub.docker.com/r/monitoringartist/jasperserver-xxl/)
+
+# Release Notes
+05-May-2016
+- Upgraded Jasper Server to 6.2.1
+- Added support for Oracle JDBC driver linking timezone from the host
+- Added JS_ENABLE_SAVE_TO_HOST_FS to enable saving scheduled reports to the host
+- Upgraded docker-compose.yml to version 2 and added the two other configurations
