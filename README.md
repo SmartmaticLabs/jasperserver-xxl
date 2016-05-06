@@ -28,7 +28,8 @@ docker run \
     --env="JS_DB_HOST=jasper.db" \
     --env="JS_DB_USER=jasper" \
     --env="JS_DB_PASSWORD=my_password" \
-    -d monitoringartist/jasperserver-xxl:latest
+	--env="JS_ENABLE_SAVE_TO_HOST_FS=true" \
+    -d smartmatic/jasperserver-xxl:latest
 
 # Starting and autodeployment can take 5-7 minutes, be patient
 # You can watch progres and issues in logs
